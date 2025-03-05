@@ -11,4 +11,5 @@ func solution(_ babbling: [String]) -> Int {
         }
         return temp.trimmingCharacters(in: .whitespaces).isEmpty
     }.count
+    
 }
